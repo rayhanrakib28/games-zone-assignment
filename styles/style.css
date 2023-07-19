@@ -14,6 +14,16 @@
 .shared-styles-heading{
     font-size: 48px;
 }
+.heading-gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
 
 
 /* header css start */
@@ -65,6 +75,15 @@ header{
 /* header css end */
 
 
+
+
+
+
+
+
+
+
+
 /* banner css start */
 main{
     padding-left: 80px;
@@ -81,14 +100,9 @@ main{
     padding: 120px 0;
 }
 .banner-text h3{
+    font-size: 60px;
     text-transform: uppercase;
     margin-bottom: 24px;
-}
-.heading-gradient{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .banner-text p{
     margin-bottom: 12px;
@@ -116,8 +130,14 @@ main{
 }
 /* banner css end */
 
-/* online games section css start */
 
+
+
+
+
+
+
+/* online games section css start */
 .online-games-section{
     margin-top: 80px;
     text-align: center;
@@ -183,17 +203,41 @@ main{
 .items-container .item p{
     text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* online games section css end */
+
+/* featured games section css start */
+.featured-games-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 120px;
+}
+.featured-games-text span{
+    color: #F948B2;
+}
+.featured-games-text p{
+    margin-top: 20px;
+}
+.featured-games-images img{
+    width: 100%;
+}
+.image-badge{
+    position: relative;
+    bottom: 80%;
+    right: -80%;
+}
+.image-badge img{
+    width: 320px;
+    height: 360px;
+}
+/* featured games section css end */
+
+/* games-tab-buttons css start */
+
+
+
+
+
+
+
+/* games-tab-buttons css end */
