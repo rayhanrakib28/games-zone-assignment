@@ -328,6 +328,9 @@ main{
 
 
 /* games-tab-buttons css start */
+.games-buttons-container{
+    padding-bottom: 120px;
+}
 .games-button img{
     margin: 10px;
 }
@@ -339,14 +342,14 @@ main{
 }
 .first-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
 
 .second-row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .games-button{
@@ -388,7 +391,6 @@ main{
 /* footer css start */
 footer{
     background: #0B0223;
-    margin-top: 120px;
 }
 .footer{
     padding: 50px 100px;
