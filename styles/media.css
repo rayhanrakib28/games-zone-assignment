@@ -114,12 +114,8 @@
         width: 180px;
         height: 200px;
     }
-    .first-row{
-        flex-direction: column;
-    }
-    
-    .second-row{
-        flex-direction: column;
+    .games-buttons-container{
+        grid-template-columns: repeat(2, 1fr);
     }
     .games-button{
         border-radius: 50px;
@@ -260,6 +256,9 @@
     .image-badge img {
         width: 180px;
         height: 200px;
+    }
+    .games-buttons-container{
+        grid-template-columns: repeat(3, 1fr);
     }
     .games-button{
         border-radius: 50px;

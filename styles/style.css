@@ -329,6 +329,9 @@ main{
 
 /* games-tab-buttons css start */
 .games-buttons-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     padding-bottom: 120px;
 }
 .games-button img{
@@ -340,24 +343,11 @@ main{
     font-weight: 600;
     margin-right: 10px;
 }
-.first-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.second-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .games-button{
     border-radius: 50px;
     background: #FFF;
     display: flex;
     margin-right: 10px;
-    justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
