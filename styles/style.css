@@ -151,16 +151,10 @@ main{
     margin-top: 120px;
     text-align: right;
 }
-.special-games-image{
-
-}
 .special-games-image img{
     width: 700px;
     height: 400px;
     flex-shrink: 0;
-}
-.special-games-content{
-    
 }
 .special-games-content h3{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -302,7 +296,7 @@ main{
     color: #F948B2;
 }
 .featured-games-text p{
-    margin-top: 20px;
+    padding: 20px 0 20px 80px;
 }
 .featured-games-images img{
     width: 100%;
