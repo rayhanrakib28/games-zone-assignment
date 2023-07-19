@@ -143,6 +143,63 @@ main{
 /* banner css end */
 
 
+/* special games section css start */
+.special-games-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    text-align: right;
+}
+.special-games-image{
+
+}
+.special-games-image img{
+    width: 700px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.special-games-content{
+    
+}
+.special-games-content h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.special-games-content p{
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.special-games-content button{
+    color: #FFF;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 15px 30px;
+    border-radius: 48px;
+    margin-top: 32px;
+    display: inline-flex;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.special-games-content .quote{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* special games section css end */
+
+
+
+
 
 
 
@@ -151,7 +208,7 @@ main{
 
 /* online games section css start */
 .online-games-section{
-    margin-top: 120px;
+    margin-top: 160px;
     text-align: center;
 }
 .online-games-section h2{
