@@ -210,11 +210,11 @@ main{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .online-games-section p{
     font-size: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 60px;
 }
 .items-container{
     display: grid;

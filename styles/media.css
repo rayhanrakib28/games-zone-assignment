@@ -61,7 +61,7 @@
         margin-bottom: 16px;
     }
     .online-games-section p{
-        font-size: 12px;
+        font-size: 14px;
     }
     .items-container{
         display: grid;
@@ -223,7 +223,7 @@
         margin-bottom: 30px;
     }
     .online-games-section p{
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 60px;
 
     }
