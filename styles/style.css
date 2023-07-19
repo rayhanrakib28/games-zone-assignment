@@ -294,6 +294,10 @@ main{
     align-items: center;
     margin-top: 120px;
 }
+.featured-games-text{
+    text-align: right;
+    margin-right: 30%;
+}
 .featured-games-text span{
     color: #F948B2;
 }
