@@ -356,6 +356,7 @@ main{
     border-radius: 50px;
     background: #FFF;
     display: flex;
+    margin-right: 10px;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
