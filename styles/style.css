@@ -330,7 +330,7 @@ main{
 /* games-tab-buttons css start */
 .games-buttons-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding-bottom: 120px;
 }
